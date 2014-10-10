@@ -14,6 +14,4 @@ Hola Mundo!
  => nil 
 2.0.0p247 :002 > 
 
-En este caso se nos define un warning, cosa que antes no ocurría, por lo demás la ejecución se realizó de igual forma. A diferencia de
-el intérprete interactivo, es necesario pasarle un fichero a irb para que ejecute lo deseado. También podemos apreciar que tras ejecutar el código fuente
-se cierra el intérprete mientras que, al hacerlo de forma interactiva, podíamos ejecutar varios comandos uno detras de otro.
+En este caso se nos define un warning, cosa que antes no ocurría, por lo demás la ejecución se realizó de igual forma.
