@@ -17,3 +17,34 @@ Hola Mundo!
 En este caso se nos define un warning, cosa que antes no ocurría, por lo demás la ejecución se realizó de igual forma. A diferencia de
 el intérprete interactivo, es necesario pasarle un fichero a irb para que ejecute lo deseado. También podemos apreciar que tras ejecutar el código fuente
 se cierra el intérprete mientras que, al hacerlo de forma interactiva, podíamos ejecutar varios comandos uno detras de otro.
+
+26. ¿Cuál es el resultado de cada una de las siguientes operaciones?
+
+[1] pry(main)> puts x
+10
+=> nil
+
+[2] pry(main)> def hello
+[2] pry(main)* puts "Hello world"
+[2] pry(main)* end
+=> nil
+
+[3] pry(main)> hello
+Hello world
+=> nil
+
+[4] pry(main)> byebye
+bye bye world!!!
+=> nil
+
+[5] pry(main)> x = "changed"
+=> "changed"
+
+[6] pry(main)> exit
+program resumes here. Value of x is: changed.
+
+27. ¿Cuáles son las diferencias entre la ejecución del programa "Hola Mundo" con el intérprete
+interactivo y con pry? Escriba la respuesta en ﬁchero creado en el ejercicio 9.
+
+Con el interprete interactivo podemos ejecutar el programa Hola mundo tras ser interpretado mientras que con pry podemos "crear" este programa en tiempo
+ejecución. Todo esto se realiza en tiempo de ejecución por lo que no modificaríamos elcódigo fuente para nada aunque creemos funciones nuevas funciones.
